@@ -8,5 +8,7 @@ def main(a):
     """
     if a>0:
         ans=a+1
-        return ans
-print(main(7))
+    else:
+        ans=a
+    return ans
+print(main(-1))
